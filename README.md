@@ -7,7 +7,7 @@ This repository contains a deep learning model that classifies poetry as either 
 - **README.md**: This file.
 - **data_test.rar**: Compressed archive containing the test dataset.
 - **data_train_val.rar**: Compressed archive containing the training and validation dataset.
-- **datacl.py**: Python module for data processing and dataset classes.
+- **datacl.py**: Python module for collection data.
 - **run recognize potry.py**: Script to run the poetry recognition model on new input.
 - **test_phobert.ipynb**: Jupyter Notebook for testing and evaluating the model.
 - **train_phobert.py**: Script for fine-tuning the PhoBERT model on the training dataset.
