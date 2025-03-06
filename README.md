@@ -46,12 +46,14 @@ To fine-tune the PhoBERT model on your training data, run:
 
 
 python train_phobert.py
+
 This script loads the training and validation data from the extracted data_train_val folder, fine-tunes the model, and saves the best model and tokenizer to the specified output directory.
 
 Testing / Running Recognition
 To classify new poetry samples or evaluate the model on the test set, run:
 
 python "run recognize potry.py"
+
 Alternatively, you can open and run the Jupyter Notebook test_phobert.ipynb for an interactive evaluation.
 
 Acknowledgements
