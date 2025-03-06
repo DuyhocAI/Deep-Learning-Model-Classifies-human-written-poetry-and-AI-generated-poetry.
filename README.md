@@ -27,6 +27,7 @@ The goal is to provide insights into the subtle differences between human and AI
    ```bash
    git clone https://github.com/DuyhocAI/Deep-Learning-Model-Classifies-human-written-poetry-and-AI-generated-poetry.git
    cd Deep-Learning-Model-Classifies-human-written-poetry-and-AI-generated-poetry
+   
 Install Dependencies:
 
 Ensure you have Python 3.7+ installed. Then install the required packages. If a requirements.txt is not provided, you can install the following packages manually:
@@ -43,8 +44,7 @@ Usage
 Training the Model
 To fine-tune the PhoBERT model on your training data, run:
 
-bash
-Sao chép
+
 python train_phobert.py
 This script loads the training and validation data from the extracted data_train_val folder, fine-tunes the model, and saves the best model and tokenizer to the specified output directory.
 
