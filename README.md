@@ -51,8 +51,6 @@ This script loads the training and validation data from the extracted data_train
 Testing / Running Recognition
 To classify new poetry samples or evaluate the model on the test set, run:
 
-bash
-Sao chép
 python "run recognize potry.py"
 Alternatively, you can open and run the Jupyter Notebook test_phobert.ipynb for an interactive evaluation.
 
