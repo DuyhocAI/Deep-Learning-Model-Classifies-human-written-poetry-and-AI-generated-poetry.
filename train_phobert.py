@@ -104,7 +104,6 @@ config = AutoConfig.from_pretrained(
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, config=config)
 model.to(device)
 
-# In ra thông tin số lượng tham số
 total_params = sum(p.numel() for p in model.parameters())
 trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
 print(f"Tổng số tham số: {total_params:,}")
